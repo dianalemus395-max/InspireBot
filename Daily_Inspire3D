@@ -1,0 +1,22 @@
+Inspire3D-bot/
+│
+├── bot_scheduler.py         # Main script to run daily posts
+├── facebook_api.py          # Functions for posting to Facebook
+├── image_generator.py       # Generates morning/evening images
+├── reel_generator.py        # Creates 3D avatar reels
+├── tts_generator.py         # Text-to-speech script
+├── blender_scripts/         # Blender Python scripts for 3D avatar
+│   └── avatar_render.py
+├── assets/                  # All media assets
+│   ├── backgrounds/         # Stock videos or images for reels
+│   ├── music/               # Background music files
+│   ├── fonts/               # Custom fonts used in images
+│   └── avatar/              # 3D avatar files (.fbx, .glb)
+├── quotes/                  # Text files with motivational quotes
+│   ├── morning_quotes.txt
+│   ├── midday_quotes.txt
+│   └── evening_quotes.txt
+├── .env                     # Facebook tokens and secrets (do NOT push to GitHub!)
+├── requirements.txt         # Python dependencies
+├── README.md                # Project description
+└── .gitignore               # Ignore .env, large media files, __pycache__
